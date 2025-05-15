@@ -1,0 +1,39 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+build/
+.out/
+.cache/
+.temp/
+tmp/
+*.log
+
+# Dependency directories
+.pnpm/
+.yarn/
+.yarnrc.yml
+.npm/
+.npmrc
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+*.lcov
+
+# Misc
+.env
+.env.*
+*.local
+*.sublime-workspace
+*.sublime-project
